@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1553604443 source:c:\users\alumno\desktop\clase4\library.c
+	<stdio.h>
+	<stdlib.h>
+	"library.h"
+
+1553602839 c:\users\alumno\desktop\clase4\library.h
+
+1553610175 source:c:\users\alumno\desktop\clase4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"library.h"
+	"recursiva.h"
+
+1553605906 source:c:\users\alumno\desktop\clase4\recursiva.c
+	<stdio.h>
+	<stdlib.h>
+	"recursiva.h"
+
+1553605906 c:\users\alumno\desktop\clase4\recursiva.h
+
