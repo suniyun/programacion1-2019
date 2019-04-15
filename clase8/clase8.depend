@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1555340983 source:c:\users\alumno\desktop\clase8\library.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"library.h"
+	"library2.h"
+
+1555340959 c:\users\alumno\desktop\clase8\library.h
+
+1555340385 c:\users\alumno\desktop\clase8\library2.h
+
+1555340385 source:c:\users\alumno\desktop\clase8\library2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"library.h"
+
+1555341121 source:c:\users\alumno\desktop\clase8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"library.h"
+	"library2.h"
+
