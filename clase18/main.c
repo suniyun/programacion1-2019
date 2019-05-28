@@ -3,14 +3,24 @@
 
 int main()
 {
-    FILE* pArchivo;
+    FILE* pArchivo; //binario
+    int* x = (int*)malloc(sizeof(int));
+    *x = 4;
+
+    pArchivo = fopen("binario.dat", "rb");
+    fread(x, sizeof(int), 1, pArchivo);
+    fclose(pArchivo);
+
+    printf("%d", *x);
+
+    /*FILE* pArchivo; //string
     char nombre[50] = "Suni";
 
     pArchivo = fopen("misDatos.txt", "w");
 
     if(pArchivo != NULL)
     {
-       /*fprintf(pArchivo,"Su nombre es: \n%s", nombre);*/
+       fprintf(pArchivo,"Su nombre es: \n%s", nombre);
        fgets(nombre, 30, pArchivo);
        fgets(nombre, 30, pArchivo);
 
@@ -18,7 +28,7 @@ int main()
        printf("%s", nombre);
     }
 
-    /*FILE* pArchivo;
+    FILE* pArchivo;
     char nombre[50] = "Suni";
     pArchivo = fopen("D:\\misDatos.txt", "r");
     if(pArchivo != NULL)
